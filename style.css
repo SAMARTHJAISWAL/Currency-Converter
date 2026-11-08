@@ -17,6 +17,7 @@
     border-radius: 1rem;
     min-height: 45vh;
     width: 40vh;
+    min-width: min(20rem, 90vw);
   }
   
   form {
@@ -46,9 +47,18 @@
     margin-top: 2rem;
   }
   
-  .dropdown i {
+  .dropdown .swap {
+    width: auto;
+    background: none;
     font-size: 1.5rem;
     margin-top: 1rem;
+    cursor: pointer;
+  }
+
+  .dropdown .swap:focus-visible,
+  form .convert:focus-visible {
+    outline: 2px solid #af4d98;
+    outline-offset: 2px;
   }
   
   .select-container img {
@@ -69,11 +79,16 @@
     width: auto;
   }
   
+  .amount label,
+  .dropdown label {
+    display: block;
+  }
+
   .msg {
     margin: 2rem 0 2rem 0;
   }
   
-  form button {
+  form .convert {
     height: 3rem;
     background-color: #af4d98;
     color: #fff;
