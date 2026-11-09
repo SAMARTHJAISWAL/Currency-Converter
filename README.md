@@ -46,3 +46,7 @@ app.js       dropdown setup, flag updates, rate fetching and conversion
 ## Deployment
 
 Because it is a plain static site, it can be hosted as-is on GitHub Pages (or any static host).
+
+## Licence
+
+[MIT](LICENSE) © 2024–2026 Samarth Jaiswal
